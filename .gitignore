@@ -1,0 +1,12 @@
+# The big provider binaries (Mandatory)
+.terraform/
+
+# Any local state leftovers (Mandatory)
+*.tfstate
+*.tfstate.*
+
+# Prevent secret leaks (High Priority)
+*.tfvars
+
+# Mac junk (For professional look)
+.DS_Store
